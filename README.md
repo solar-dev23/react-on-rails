@@ -1,24 +1,31 @@
-# README
+# Best Seats Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About
 
-Things you may want to cover:
+Best seats is an application that find the best open seat(closest to the front & middle) given the input JSON and number of requested seats.
 
-* Ruby version
+### Used Libraries & Tools
 
-* System dependencies
+- React on Rails
+- Ant design
 
-* Configuration
+### Features
 
-* Database creation
+- CRUD for movies
+- Find best seat given the input JSON
 
-* Database initialization
+### How to setup on local
 
-* How to run the test suite
+- `cd /project_path`
+- `bundle install`
+- `rake db:migrate`
+- `yarn`
 
-* Services (job queues, cache servers, search engines, etc.)
+### How to run
 
-* Deployment instructions
+- `rails s`
 
-* ...
+### References
+
+- https://www.shakacode.com/react-on-rails/docs/
+- https://ant.design/docs/react/introduce
